@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atölye İSG ve Bilgi Panosu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="ust-banner">
+        <div class="okul-ismi">
+            <img id="logo" src="makiflogo.png" alt="">MEHMET AKİF ERSOY MESLEKİ VE TEKNİK ANADOLU LİSESİ
+        </div>
+        <div class="uygulama-ismi">
+            ATÖLYE İSG VE BİLGİ PANOSU V1.0
+        </div>
+        <div class="imza">
+            <div id="">Bilişim Teknolojileri Bölümü</div>
+            <div id="hazirlayan" style="color:#f1c40f; font-weight:bold;"> Kadir KAVAL</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-8 col-12" id="egitim-alani">
+                <div id="konu-basligi">YÜKLENİYOR...</div>
+                <img src="" id="ana-gorsel" alt="İSG Görseli" class="img-fluid">
+
+                <div class="bilgi-karti">
+                    <div class="bilgi-baslik"><i class="fas fa-info-circle"></i> Biliyor muydunuz?</div>
+                    <div id="aciklama-metni" class="bilgi-detay"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12" id="sag-panel">
+                <div class="kutu flex-row align-items-center justify-content-evenly" style="flex-grow: 0.5;">
+                    <i class="fas fa-clock fw-bold" style="font-size: 7rem; color: var(--header-blue);"></i>
+                    <div>
+                        <h2 id="saat" style="font-weight:bold; font-size:5rem; margin:0;">00:00</h2>
+                        <h5 id="tarih" style="color:#777;">Tarih Yükleniyor</h5>
+                    </div>
+                </div>
+
+                <div class="kutu ders-kutu" id="ders-durumu-paneli">
+                    <h5 id="ders-durumu-baslik">DERS DURUMU</h5>
+                    <h1 id="ders-adi" style="font-size: 2.5rem; font-weight: 800;">DERS</h1>
+
+                    <div class="progress">
+                        <div id="ders-cubugu" class="progress-bar progress-bar-striped progress-bar-animated"
+                            style="width: 0%">%0</div>
+                    </div>
+                    <h4 id="kalan-sure" style="margin-top: 10px;">Hesaplanıyor...</h4>
+                </div>
+
+                <div class="kutu nobetci-kutu">
+                    <h4 style="color:#8e44ad;"><i class="fas fa-user-shield"></i> ATÖLYE SORUMLULARI</h4>
+                    <hr>
+
+                    <div class="gorevli-baslik">MÜDÜR YARDIMCISI</div>
+                    <div class="gorevli-isim" id="mudur-yrd-isim">Yükleniyor...</div>
+
+                    <div class="gorevli-baslik">NÖBETÇİ ÖĞRETMEN</div>
+                    <div class="gorevli-isim" id="nobetci-ogretmen-isim">Yükleniyor...</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="alt-bant">
+        <strong id="atolye-kurallari"> ATÖLYE KURALLARI :</strong>
+        <marquee id="kayan-yazi" direction="left" scrollamount="10">
+            SİSTEM YÜKLENİYOR... LÜTFEN BEKLEYİNİZ...
+        </marquee>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
